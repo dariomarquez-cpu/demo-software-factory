@@ -20,6 +20,7 @@ del 10% cuando el carrito tiene productos de categoría `ELECTRONICA`. Un modelo
 .
 ├── AGENTS.md                     # Contrato operativo del agente (límites, criterio de parada)
 ├── RUNBOOK.md                    # Instalación + comandos para replicar el flujo
+├── DEMO.md                       # Guion minuto a minuto de la demo en vivo
 ├── specs/
 │   └── TICKET-104.md             # Especificación con criterios de aceptación verificables
 ├── scripts/
