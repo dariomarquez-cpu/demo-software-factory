@@ -75,6 +75,9 @@ uv pip install -e . --group dev
 chmod +x scripts/converge.sh
 ```
 
+Para la **demo en vivo** no uses este clon: usá la copia de trabajo `demo-software-factory-demo`
+(ver `DEMO.md`). Ahí el remoto `origin` es la copia y `upstream` es este repo, así el PR sale hacia acá.
+
 Verificación rápida:
 
 ```bash
