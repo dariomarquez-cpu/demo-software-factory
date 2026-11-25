@@ -63,7 +63,7 @@ gh auth status
 ## 3. Clonar y preparar el repo
 
 ```bash
-git clone https://github.com/<usuario>/demo-software-factory.git
+git clone https://github.com/dariomarquez-cpu/demo-software-factory.git
 cd demo-software-factory
 
 uv venv && source .venv/bin/activate

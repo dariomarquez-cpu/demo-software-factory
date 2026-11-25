@@ -37,7 +37,7 @@ del 10% cuando el carrito tiene productos de categoría `ELECTRONICA`. Un modelo
 ## Arranque rápido
 
 ```bash
-git clone https://github.com/<usuario>/demo-software-factory.git
+git clone https://github.com/dariomarquez-cpu/demo-software-factory.git
 cd demo-software-factory
 
 uv venv && source .venv/bin/activate
