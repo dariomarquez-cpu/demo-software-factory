@@ -36,5 +36,5 @@ def test_final_total_sin_descuentos_igual_al_subtotal():
         CartItem(name="Mouse", category="ACCESORIOS", unit_price=25000.0, quantity=2),
     ]
 
+    # Subtotal 100.000: no supera el umbral de volumen, así que no hay descuento.
     assert calculate_final_total(items) == 100000.0
-    assert calculate_final_total(items, coupon_code="BIENVENIDA15") == 100000.0

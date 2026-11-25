@@ -52,6 +52,7 @@ uv pip install -e . --group dev   # o: pip install pytest pytest-cov ruff
 |--------------|--------|-----|
 | `main`       | Verde  | Código base. Solo tests del comportamiento actual. |
 | `demo-ready` | Rojo   | Agrega los tests de aceptación de `TICKET-104`. Es el punto de partida del agente. |
+| `demo-solution` | Verde | Referencia ya resuelta del ticket. Plan B si falla la demo en vivo. |
 
 El "momento ajá" en vivo:
 
