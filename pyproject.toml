@@ -1,0 +1,29 @@
+[project]
+name = "demo-software-factory"
+version = "0.1.0"
+description = "Demo: de vibe coding a software factory con agentes de IA"
+requires-python = ">=3.11"
+dependencies = []
+
+[dependency-groups]
+dev = ["pytest>=8", "pytest-cov>=5", "ruff>=0.6"]
+
+[tool.pytest.ini_options]
+pythonpath = ["."]
+testpaths = ["tests"]
+addopts = "-q"
+
+[tool.ruff]
+line-length = 100
+target-version = "py311"
+
+[tool.ruff.lint]
+select = ["E", "F", "I", "B", "UP"]
+
+[tool.coverage.run]
+branch = true
+source = ["src/pricing"]
+
+[tool.coverage.report]
+show_missing = true
+exclude_lines = ["pragma: no cover"]
