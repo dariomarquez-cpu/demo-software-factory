@@ -23,9 +23,10 @@ La implementación actual (`src/pricing/calculator.py`) solo calcula el subtotal
 | 50000    | BIENVENIDA15 | HOGAR                | 15% (cupón)        | 42500.00  |
 | 120000   | BIENVENIDA15 | HOGAR                | 15% (el mayor)     | 102000.00 |
 | 150000   | BIENVENIDA15 | ELECTRONICA          | 10% (tope)         | 135000.00 |
-| 90000    | BIENVENIDA15 | ELECTRONICA          | 15% (sin volumen)  | 76500.00  |
+| 90000    | BIENVENIDA15 | ELECTRONICA          | 10% (tope, sin volumen) | 81000.00 |
 
 > La quinta fila es la trampa del ticket: un cálculo apurado aplica 15% y devuelve `127500.00`.
+> La sexta fila es la segunda trampa: el tope de `ELECTRONICA` aplica aunque no haya descuento por volumen.
 
 ## Criterios de aceptación (métrica de convergencia)
 
